@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">RPG-Character-Sheet</string>
+
+    <string-array name="dnd_characteristics">
+        <item>Strength</item>
+        <item>Dexterity</item>
+        <item>Constitution</item>
+        <item>Intelligence</item>
+        <item>Wisdom</item>
+        <item>Charisma</item>
+    </string-array>
+
+    <string-array name="ffg_characteristics">
+        <item>Brawn</item>
+        <item>Agility</item>
+        <item>Intellect</item>
+        <item>Cunning</item>
+        <item>Willpower</item>
+        <item>Presence</item>
+    </string-array>
+
+    <string name="rpg_title_dnd">Dungeons and Dragons 5th Edition</string>
+    <string name="rpg_title_star_wars">Fantasy Flight Games Star Wars</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

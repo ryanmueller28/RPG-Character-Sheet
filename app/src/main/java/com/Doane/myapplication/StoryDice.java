@@ -8,4 +8,11 @@ public class StoryDice extends Die {
 
     }
 
+    public void assemblePool(){
+
+    }
+
+    public void rollPool(){
+
+    }
 }
