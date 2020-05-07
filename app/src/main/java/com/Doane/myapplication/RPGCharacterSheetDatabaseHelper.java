@@ -11,7 +11,7 @@ import static android.provider.Contacts.SettingsColumns.KEY;
 public class RPGCharacterSheetDatabaseHelper extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "CHARACTER_SHEET_DATABASE";
-    private static final int DB_VERSION = 2;
+    private static final int DB_VERSION = 3;
     private static final String NAME_COLUMN = "NAME";
     private static final String SPECIES_COLUMN ="SPECIES";
     private static final String CAREER_COLUMN = "CAREER";
@@ -60,7 +60,7 @@ public class RPGCharacterSheetDatabaseHelper extends SQLiteOpenHelper {
                         PRESENCE_COLUMN + "INTEGER);");
             }
             if (oldVersion < 2) {
-
+                db.execSQL("ALTER TABLE CHARACTER ADD COLUMN IMAGE");
             }
         }
     }

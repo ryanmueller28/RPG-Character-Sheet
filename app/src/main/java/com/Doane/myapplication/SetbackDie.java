@@ -15,9 +15,9 @@ public class SetbackDie extends StoryDice {
 
         switch(resultRoll){
             case 1:
-                //resultFace = Face.faces[11]; // will be changed to blank
+                resultFace = Face.faces[11]; // will be changed to blank
             case 2:
-                //resultFace = Face.faces[11]; // will be changed to blank
+                resultFace = Face.faces[11]; // will be changed to blank
             case 3:
                 resultFace = Face.faces[5];
             case 4:

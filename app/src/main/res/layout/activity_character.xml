@@ -1,19 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CharacterActivity">
 
+
+
+
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/editText"
-        />
+        android:layout_width="413dp"
+        android:layout_height="70dp"
+        android:hint="@string/char_name_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/editSpecies"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/species_hint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <EditText
+        android:id="@+id/editCareer"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:hint="@string/career_hint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSpecies" />
+
+    <EditText
+        android:id="@+id/editBrawn"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:hint="@string/brawn_hint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCareer" />
+
+
+
+    <EditText
+        android:id="@+id/editAgility"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:hint="@string/agility_hint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editBrawn" />
+
+    <EditText
+        android:id="@+id/editIntellect"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:hint="@string/int_hint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAgility" />
+
+    <EditText
+        android:id="@+id/editCunning"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:hint="@string/cunning_hint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editIntellect" />
+
+    <EditText
+        android:id="@+id/editWillpower"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:hint="@string/will_hint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCunning" />
+
+    <EditText
+        android:id="@+id/editPresence"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:hint="@string/presence_hint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editWillpower" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/btnAdd"/>
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_character"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

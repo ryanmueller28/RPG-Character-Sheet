@@ -15,7 +15,7 @@ public class DifficultyDie extends StoryDice{
         switch(resultRoll){
             case 1:
                 //set result face to blank
-                //resultFace = Face.faces[11]; //will be changed to index 11
+                resultFace = Face.faces[11]; //will be changed to index 11
             case 2:
                 //success
                 resultFace = Face.faces[5];
@@ -29,7 +29,7 @@ public class DifficultyDie extends StoryDice{
             case 6:
                 resultFace = Face.faces[4];
             case 7:
-                //resultFace = Face.faces[16];
+                resultFace = Face.faces[16];
             case 8:
                 resultFace = Face.faces[6];
         }

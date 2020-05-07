@@ -1,14 +1,6 @@
 <resources>
     <string name="app_name">RPG-Character-Sheet</string>
-
-    <string-array name="dnd_characteristics">
-        <item>Strength</item>
-        <item>Dexterity</item>
-        <item>Constitution</item>
-        <item>Intelligence</item>
-        <item>Wisdom</item>
-        <item>Charisma</item>
-    </string-array>
+    <string name="star_wars_logo">Star Wars FFG Logo</string>
 
     <string-array name="ffg_characteristics">
         <item>Brawn</item>
@@ -19,9 +11,22 @@
         <item>Presence</item>
     </string-array>
 
-    <string name="rpg_title_dnd">Dungeons and Dragons 5th Edition</string>
-    <string name="rpg_title_star_wars">Fantasy Flight Games Star Wars</string>
+    <string name="char_name_hint">Character Name</string>
+    <string name="species_hint">Species</string>
+    <string name="career_hint">Career</string>
+    <string name="brawn_hint">Brawn</string>
+    <string name="agility_hint">Agility</string>
+    <string name="int_hint">Intellect</string>
+    <string name="cunning_hint">Cunning</string>
+    <string name="will_hint">Willpower</string>
+    <string name="presence_hint">Presence</string>
+    <string name="add_character">Add Character</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="options">
+        <item>Create Character</item>
+        <item>View Characters</item>
+        <item>Roll Dice</item>
+        <item>About</item>
+    </string-array>
+    <string name="rpg_title_star_wars">Fantasy Flight Games Star Wars</string>
 </resources>

@@ -15,7 +15,7 @@ public class ChallengeDie extends StoryDice {
 
         switch(resultRoll){
             case 1:
-                //resultFace = Face.faces[11]; // will be changed to blank
+                resultFace = Face.faces[11]; // will be changed to blank
             case 2:
                 resultFace = Face.faces[5]; // will be changed to blank
             case 3:
@@ -33,9 +33,9 @@ public class ChallengeDie extends StoryDice {
             case 9:
                 resultFace = Face.faces[6];
             case 10:
-                //resultFace = Face.faces[16];
+                resultFace = Face.faces[16];
             case 11:
-                //resultFace = Face.faces[16];
+                resultFace = Face.faces[16];
             case 12:
                 resultFace = Face.faces[10];
         }

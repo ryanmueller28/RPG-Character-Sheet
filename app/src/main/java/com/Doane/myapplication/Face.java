@@ -19,9 +19,14 @@ public class Face{
             new Face("doubleFailure", R.drawable.doublefailure),
             new Face("success", R.drawable.success),
             new Face("triumph", R.drawable.triumph),
-            new Face("despair", R.drawable.despair)
+            new Face("despair", R.drawable.despair),
+            new Face("blank", R.drawable.blank),
+            new Face("singledarkside", R.drawable.singledarkside),
+            new Face("singlelightside", R.drawable.singlelightside),
+            new Face("doubledarkside", R.drawable.doubledarkside),
+            new Face("doublelightside", R.drawable.doublelightside),
+            new Face("doubledsiadvantage", R.drawable.doubledisadvantage)
     };
-
     private Face(String name, int imageResourceId) {
         this.name = name;
         this.imageResourceId = imageResourceId;

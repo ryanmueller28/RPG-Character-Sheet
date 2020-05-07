@@ -15,29 +15,29 @@ public class ForceDie extends StoryDice {
 
         switch(resultRoll){
             case 1:
-                //resultFace = Face.faces[12];
+               resultFace = Face.faces[12];
             case 2:
-          //      resultFace = Face.faces[12];
+                resultFace = Face.faces[12];
             case 3:
-                //resultFace = Face.faces[12];
+                resultFace = Face.faces[12];
             case 4:
-                //resultFace = Face.faces[12];
+                resultFace = Face.faces[12];
             case 5:
-                //resultFace = Face.faces[12];
+               resultFace = Face.faces[12];
             case 6:
-                //resultFace = Face.faces[12];
+                resultFace = Face.faces[12];
             case 7:
-                //resultFace = Face.faces[14];
+                resultFace = Face.faces[14];
             case 8:
-                //resultFace = Face.faces[13];
+                resultFace = Face.faces[13];
             case 9:
-                //resultFace = Face.faces[13];
+                resultFace = Face.faces[13];
             case 10:
-                //resultFace = Face.faces[15];
+                resultFace = Face.faces[15];
             case 11:
-                //resultFace = Face.faces[15];
+                resultFace = Face.faces[15];
             case 12:
-                //resultFace = Face.faces[15];
+                resultFace = Face.faces[15];
         }
     }
 }
